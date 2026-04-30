@@ -1,6 +1,6 @@
 //Controls
 
-/*
+
 var a = false;
 var d = false;
 var w = false;
@@ -59,5 +59,3 @@ function release (e)
         s = false;
     }
 }
-
-*/
