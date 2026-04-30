@@ -19,6 +19,10 @@ player.vx = 0;
 player.vy = 0;
 
 
+
+npc1 = new GameObject(300, canvas.height/2, 100, 100, "#00ff00");
+npc1.x = 400;
+npc1.y = 300;
 /*
 npc1 = new GameObject(300, canvas.height/2, 100, 100, "#00ff00");
 npc2 = new GameObject(600, canvas.height/2, 100, 100, "#0000ff");
