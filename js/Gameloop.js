@@ -5,9 +5,9 @@ var timer;
 var interval = 1000/60; //this means the animation is going to play in 60 milliseconds
 
 
-var frictionX = 0.85;
-var frictionY = 0.5;
-var gravity = 1;
+var frictionX = 1;
+var frictionY = 1;
+var gravity = 0;
 
 
 canvas = document.getElementById("canvas");
@@ -15,14 +15,13 @@ context = canvas.getContext("2d");
 
 // player = new GameObject(0,0,100,100, "#00ff00");
 player = new GameObject(50, canvas.height/2, 100, 100, "#ffff00");
-player.vx = 0;
+player.vx = 1;
 player.vy = 0;
 
 
 
-npc1 = new GameObject(300, canvas.height/2, 100, 100, "#00ff00");
-npc1.x = 400;
-npc1.y = 300;
+
+
 /*
 npc1 = new GameObject(300, canvas.height/2, 100, 100, "#00ff00");
 npc2 = new GameObject(600, canvas.height/2, 100, 100, "#0000ff");
